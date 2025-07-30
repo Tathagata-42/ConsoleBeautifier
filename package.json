@@ -1,14 +1,14 @@
 {
-  "name": "consolebeautifier",
+  "name": "consoleasthetic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["console", "logs", "beautifier", "chalk", "logging"],
+  "author": "Tathagata",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "cli-table3": "^0.6.5",
@@ -20,5 +20,9 @@
     "@types/chalk": "^2.2.4",
     "@types/inquirer": "^9.0.8",
     "@types/node": "^24.1.0"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Tathagata-42/ConsoleBeautifier.git"
+}
 }
