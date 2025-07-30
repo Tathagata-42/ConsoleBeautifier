@@ -77,16 +77,6 @@ console.log(getAvailableThemes()); // [ 'minimal', 'emoji', 'table' ]
 	•	Built using TypeScript and Chalk.
 	•	Table-based output powered by cli-table3.
 	•	Inspired by developers who want clean and fun logs.
-
-
     ---
 
-### **How to Add This to Your README**
-1. Copy everything from **```markdown ... ```** above.
-2. Paste it directly into your `README.md` file.
-3. Replace all `your-username` with your **GitHub username**.
-4. Replace `console-beautifier` with your **final NPM package name**.
 
----
-
-Would you like me to **generate a `LICENSE` (MIT)** and **`.npmignore`** file for you next (so you can publish a clean, professional package)?
