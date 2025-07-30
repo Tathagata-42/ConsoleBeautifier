@@ -1,5 +1,5 @@
 {
-  "name": "consolebeautifier",
+  "name": "consoleasthetic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,5 +20,9 @@
     "@types/chalk": "^2.2.4",
     "@types/inquirer": "^9.0.8",
     "@types/node": "^24.1.0"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Tathagata-42/ConsoleBeautifier.git"
+}
 }
