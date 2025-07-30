@@ -1,9 +1,9 @@
 # Console Beautifier ✨  
 
-[![NPM Version](https://img.shields.io/npm/v/console-beautifier.svg)](https://www.npmjs.com/package/console-beautifier)
-[![Downloads](https://img.shields.io/npm/dm/console-beautifier.svg)](https://www.npmjs.com/package/console-beautifier)
-[![License](https://img.shields.io/npm/l/console-beautifier.svg)](https://github.com/your-username/console-beautifier/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/console-beautifier.svg?style=social)](https://github.com/your-username/console-beautifier)
+[![NPM Version](https://img.shields.io/npm/v/consoleasthetic.svg)](https://www.npmjs.com/package/consoleasthetic)
+[![Downloads](https://img.shields.io/npm/dm/consoleasthetic.svg)](https://www.npmjs.com/package/consoleasthetic)
+[![License](https://img.shields.io/npm/l/consoleasthetic.svg)](https://github.com/your-username/consoleasthetic/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/your-username/consoleasthetic.svg?style=social)](https://github.com/your-username/consoleasthetic)
 
 Transform your boring `console.log` into colorful, stylish, and fun logs with emojis and tables.  
 Perfect for **Node.js, React, and TypeScript** projects!
@@ -28,7 +28,7 @@ npm install consoleasthetic
 Quick Start - Add this to your index.ts or main file
 
 
-import { initConsoleBeautifier } from "console-beautifier";
+import { initConsoleBeautifier } from "consoleasthetic";
 
 (async () => {
   await initConsoleBeautifier();  // Interactive theme selection
@@ -60,7 +60,7 @@ Table
 └────────────┴─────────┴────────────────────────────┘
 
 Change theme at runtime
-import { setConsoleTheme } from "console-beautifier";
+import { setConsoleTheme } from "consoleasthetic";
 
 setConsoleTheme("emoji");  // Switch to emoji theme
 console.log("Now using emojis!");
@@ -70,7 +70,7 @@ console.log("Now logs are tabular!");
 
 List all availale themes
 
-import { getAvailableThemes } from "console-beautifier";
+import { getAvailableThemes } from "consoleasthetic";
 console.log(getAvailableThemes()); // [ 'minimal', 'emoji', 'table' ]
 
 🙌 Credits
@@ -85,7 +85,7 @@ console.log(getAvailableThemes()); // [ 'minimal', 'emoji', 'table' ]
 1. Copy everything from **```markdown ... ```** above.
 2. Paste it directly into your `README.md` file.
 3. Replace all `your-username` with your **GitHub username**.
-4. Replace `console-beautifier` with your **final NPM package name**.
+4. Replace `consoleasthetic` with your **final NPM package name**.
 
 ---
 
@@ -93,10 +93,10 @@ Would you like me to **generate a `LICENSE` (MIT)** and **`.npmignore`** file fo
 =======
 # Console Beautifier ✨  
 
-[![NPM Version](https://img.shields.io/npm/v/console-beautifier.svg)](https://www.npmjs.com/package/console-beautifier)
-[![Downloads](https://img.shields.io/npm/dm/console-beautifier.svg)](https://www.npmjs.com/package/console-beautifier)
-[![License](https://img.shields.io/npm/l/console-beautifier.svg)](https://github.com/your-username/console-beautifier/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/console-beautifier.svg?style=social)](https://github.com/your-username/console-beautifier)
+[![NPM Version](https://img.shields.io/npm/v/consoleasthetic.svg)](https://www.npmjs.com/package/consoleasthetic)
+[![Downloads](https://img.shields.io/npm/dm/consoleasthetic.svg)](https://www.npmjs.com/package/consoleasthetic)
+[![License](https://img.shields.io/npm/l/consoleasthetic.svg)](https://github.com/your-username/consoleasthetic/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/your-username/consoleasthetic.svg?style=social)](https://github.com/your-username/consoleasthetic)
 
 Transform your boring `console.log` into colorful, stylish, and fun logs with emojis and tables.  
 Perfect for **Node.js, React, and TypeScript** projects!
@@ -121,7 +121,7 @@ npm install consoleasthetic
 Quick Start - Add this to your index.ts or main file
 
 
-import { initConsoleBeautifier } from "console-beautifier";
+import { initConsoleBeautifier } from "consoleasthetic";
 
 (async () => {
   await initConsoleBeautifier();  // Interactive theme selection
@@ -153,7 +153,7 @@ Table
 └────────────┴─────────┴────────────────────────────┘
 
 Change theme at runtime
-import { setConsoleTheme } from "console-beautifier";
+import { setConsoleTheme } from "consoleasthetic";
 
 setConsoleTheme("emoji");  // Switch to emoji theme
 console.log("Now using emojis!");
@@ -163,7 +163,7 @@ console.log("Now logs are tabular!");
 
 List all availale themes
 
-import { getAvailableThemes } from "console-beautifier";
+import { getAvailableThemes } from "consoleasthetic";
 console.log(getAvailableThemes()); // [ 'minimal', 'emoji', 'table' ]
 
 🙌 Credits
